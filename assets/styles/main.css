@@ -1,0 +1,225 @@
+@font-face {
+  font-family: "Satisfy";
+  src: url('../fonts/Satisfy-Regular.woff2') format('woff2'), url('../fonts/Satisfy-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar {
+  z-index: 100;
+  background: #FFFFFF;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.08);
+}
+
+.carousel-title {
+  font-family: "Satisfy";
+  font-size: 50px;
+}
+
+.carousel-inner {
+  height: 90vh;
+}
+
+.carousel-item {
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+}
+
+#carousel-picture-1 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../images/brunch.jpg");
+}
+
+#carousel-picture-2 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../images/chmp.jpg");
+}
+
+#carousel-picture-3 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../images/pizza.jpg");
+}
+
+.carousel-caption {
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 100px;
+}
+
+h3 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  text-align: center;
+}
+
+.card-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-text {
+  height: 80px;
+}
+
+.newslayout {
+  background-color: #c6d2ed;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #827081;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emailbox {
+  border-radius: 3px;
+}
+
+.scnew {
+  padding: 10px;
+}
+
+#contfoot {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100%;
+  background: #827081;
+  padding-top: 40px;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+#icones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 250px;
+}
+
+#contfoot2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100%;
+  background: #827081;
+  padding-top: 40px;
+}
+
+#footer2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+#icones2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 250px;
+}
+
+.soustxt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.soustxt2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.texte {
+  height: 70px;
+  width: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.texte a {
+  color: #aea3b0;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.texte a:hover {
+  animation-duration: 10s;
+  animation-name: monter;
+  color: #e7e6f7;
+}
+
+.texte2 {
+  height: 50px;
+  width: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.texte2 a {
+  color: #aea3b0;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.texte2 a:hover {
+  animation-duration: 10s;
+  animation-name: monter;
+  color: #e7e6f7;
+}
+
+.rs {
+  height: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.rs a {
+  color: #aea3b0;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.rs a:hover {
+  animation-duration: 10s;
+  animation-name: monter;
+  color: #e7e6f7;
+}
+
+@keyframes monter {
+  0% {
+    position: relative;
+    bottom: 0%;
+  }
+  5% {
+    position: relative;
+    bottom: 10%;
+    animation-play-state: paused;
+  }
+}
+
+.phrase {
+  color: #aea3b0;
+  padding-top: 10px;
+  text-align: center;
+}
